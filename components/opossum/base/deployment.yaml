@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: opossum
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads-stage/cpapasta-tenant/opossum/opossum@sha256:9a516206138eb1d68b713542e2aca2f572647794aca5bed0f8cdfdc02904bfad
         name: my-nodejs
         ports:
         - containerPort: 3001
