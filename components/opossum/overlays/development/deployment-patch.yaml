@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: opossum
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/cpapasta-tenant/opossum/opossum@sha256:9a516206138eb1d68b713542e2aca2f572647794aca5bed0f8cdfdc02904bfad
+        name: my-nodejs
+        resources: {}
+status: {}
