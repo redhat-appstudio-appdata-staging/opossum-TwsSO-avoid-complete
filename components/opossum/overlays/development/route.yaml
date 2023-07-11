@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: opossum
     app.kubernetes.io/part-of: opossum
-  name: opossumblkp
+  name: opossumv64q
 spec:
   path: /
   port:
